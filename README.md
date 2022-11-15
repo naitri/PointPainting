@@ -1,7 +1,13 @@
 # PointPainting (3D semantic segmentaiton)
 This is naive implementation of [PointPainting](https://arxiv.org/abs/1911.1015010) where any image segmentation network can be used for 3D point cloud segmentaiton where each point is labelled with a class.
-
+#### Semantically Segmented Point Cloud
 <img src="github_fig/pointp_AdobeExpress.gif"  align="center" alt="Undistorted" width="500"/>
+
+#### BEV of Point Cloud
+<img src="github_fig/0000000031.png"  align="center" alt="Undistorted" width="400"/>
+
+#### Projection of Point Cloud on Image
+<img src="/github_fig/projected.png"  align="center" alt="Undistorted" width="400"/>
 
 ### Installation 
 ```pip install requirements.txt```
